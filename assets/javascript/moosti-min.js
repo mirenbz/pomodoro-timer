@@ -31,7 +31,7 @@ function desktopAlert() {
 		Notification.requestPermission();
 	}
 
-	n = new Notification( "[moosti]", {
+	n = new Notification( "Pomodoro", {
 		body: currentAlertDesc, 
 		icon : "logo48.png"
 	});
@@ -89,7 +89,7 @@ function desktopAlert() {
         },
         resetTimer: function(c) {
             var b = f(c);
-            document.title = "[moosti]";
+            document.title = "Pomodoro";
             var a = this;
             a.text(e(new Date(b.time_in_seconds * 1000), b.time_format)).data("countdown.duration", b.time_in_seconds * 1000).data("countdown.state", "ready").data("countdown.timer_id", new Date().getTime());
             return this
