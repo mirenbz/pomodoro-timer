@@ -66,9 +66,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26292e",endCo
 
 /* Change backgrounds */
 
-body.bgFocus { background:#bf616a; }
-body.bgSbreak { background:#ebcb8b; }
-body.bgLbreak { background:#007760; }
+body.bgFocus { background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom, #bf616a;  }
+body.bgSbreak { background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom, #ebcb8b; }
+body.bgLbreak { background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom, #007760; }
 
 body.bgFocus #focusSigns {display:block;}
 body.bgFocus #signsplaceholder {display:none;}
@@ -83,7 +83,7 @@ body.bgFocus p#timerPosition {  opacity: 0.5; filter: alpha(opacity=50); }
 
 /* Signs panels */
 
-.signs { text-align: center; display:none;}
+.signs { text-align: center; display:none; opacity:.3; }
 #signsplaceholder {height:60.5px;}
 .signs div { width:50px; display:inline-block; color:white; opacity:0.5; margin:0 1em; }
 .signs div svg {height:50px;}
