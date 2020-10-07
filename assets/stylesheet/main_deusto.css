@@ -56,20 +56,16 @@ ul.panels li.panel {
 }*/
 
 /*ul.panels li.panel.panel_1*/body {
-background: #0054CF; /* Old browsers */
-background: -moz-linear-gradient(top,  #0054CF 0%, #003F9C 50%, #00337E 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0054CF), color-stop(50%,#00337E), color-stop(100%,#003F9C)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #0054CF 0%,#003F9C 50%,#00337E 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #0054CF 0%,#003F9C 50%,#00337E 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #0054CF 0%,#003F9C 50%,#00337E 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #0054CF 0%,#003F9C 50%,#00337E 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0054CF', endColorstr='#003F9C',GradientType=0 ); /* IE6-9 */
-
+background: rgb(38,41,46);
+background: -moz-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
+background: linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26292e",endColorstr="#4c566a",GradientType=1);
 }
 
 /* Change backgrounds */
 
-body.bgFocus { background:#00265E; }
+body.bgFocus { background:#bf616a; }
 body.bgSbreak, body.bgLbreak { background:#007760; }
 
 body.bgFocus #focusSigns {display:block;}
@@ -480,18 +476,28 @@ button.m_button {
 }
 
 button.m_button_color_n {
-  background: #5B738D;
+  background: #2e3440;
 }
 button.m_button_color_s {
-  background: #83A69F;
+  background: #bf616a;
 }
 
 button.m_button_color_n:hover {
   background: #712a64;
 }
-button.m_button_color_s:hover {
-  background: #712a64;
+button#focusButton.m_button_color_n:hover {
+  background: #d08770;
 }
+button#shortBreakButton.m_button_color_n:hover {
+  background: #a3be8c;
+}
+button#longBreakButton.m_button_color_n:hover {
+  background: #a3be8c;
+}
+button.m_button_color_s:hover {
+  background: #781A23;
+}
+
 
 
 
