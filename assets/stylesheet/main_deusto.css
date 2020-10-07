@@ -57,11 +57,11 @@ ul.panels li.panel {
 
 /*ul.panels li.panel.panel_1*/body {
 background: rgb(38,41,46);
-background: -moz-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
-background: linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
+background-image: url('../images/deustokom_logo_bgwhite.png');
+background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom, -moz-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
+background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom, -webkit-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
+background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom, linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26292e",endColorstr="#4c566a",GradientType=1);
-background-image:('../images/deustokom_logo_bgwhite.png') bottom right no-repeat;
 }
 
 /* Change backgrounds */
