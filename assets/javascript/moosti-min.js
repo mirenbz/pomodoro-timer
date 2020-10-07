@@ -244,7 +244,7 @@ function buzzer() {
     $.cookie('audioCheck', document.getElementById("check_audio").checked);
 
     if (document.getElementById("check_audio").checked) {
-        var b = new Audio("alarm.wav");
+        var b = new Audio("tibetan-bell.mp3");
         b.load();
         b.play();
     }
