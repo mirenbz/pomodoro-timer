@@ -66,7 +66,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26292e",endCo
 /* Change backgrounds */
 
 body.bgFocus { background:#bf616a; }
-body.bgSbreak, body.bgLbreak { background:#007760; }
+body.bgSbreak { background:#ebcb8b; }
+body.bgLbreak { background:#007760; }
 
 body.bgFocus #focusSigns {display:block;}
 body.bgFocus #signsplaceholder {display:none;}
@@ -476,26 +477,26 @@ button.m_button {
 }
 
 button.m_button_color_n {
-  background: #2e3440;
+  background: #434c5e;
 }
 button.m_button_color_s {
-  background: #bf616a;
+  background: #3b4252;
 }
 
 button.m_button_color_n:hover {
   background: #712a64;
 }
 button#focusButton.m_button_color_n:hover {
-  background: #d08770;
+  background: #bf616a;
 }
 button#shortBreakButton.m_button_color_n:hover {
-  background: #a3be8c;
+  background: #ebcb8b;
 }
 button#longBreakButton.m_button_color_n:hover {
-  background: #a3be8c;
+  background: #007760;
 }
 button.m_button_color_s:hover {
-  background: #781A23;
+  background: #2e3440;
 }
 
 
