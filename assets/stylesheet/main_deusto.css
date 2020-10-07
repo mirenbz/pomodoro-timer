@@ -61,6 +61,7 @@ background: -moz-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%
 background: -webkit-linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
 background: linear-gradient(0deg, rgba(38,41,46,1) 0%, rgba(59,66,82,1) 50%, rgba(76,86,106,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26292e",endColorstr="#4c566a",GradientType=1);
+background-image:('../images/deustokom_logo_bgwhite.png') bottom right no-repeat;
 }
 
 /* Change backgrounds */
@@ -477,7 +478,7 @@ button.m_button {
 }
 
 button.m_button_color_n {
-  background: #434c5e;
+  background: #4c566a;
 }
 button.m_button_color_s {
   background: #3b4252;
