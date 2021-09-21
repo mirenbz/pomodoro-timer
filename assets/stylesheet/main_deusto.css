@@ -154,7 +154,7 @@ ul.panels li.panel.panel_1 div.timer {
   font-weight: bold italic;
   font-size: 20em;
   line-height: 1.2em;
-  text-align: center;
+  text-align: /*center*/ left;
 }
 @media only screen and (max-width: 767px) {
   ul.panels li.panel.panel_1 div.timer {
