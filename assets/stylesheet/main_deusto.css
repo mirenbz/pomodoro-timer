@@ -67,9 +67,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#26292e",endCo
 
 /* Change backgrounds */
 
-body.bgFocus { /*background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom,*/ #bf616a;  }
-body.bgSbreak { /*background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom,*/ #DAAD54; }
-body.bgLbreak { /*background: url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom,*/ #007760; }
+body.bgFocus { background: /*url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom,*/ #bf616a;  }
+body.bgSbreak { background: /*url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom,*/ #DAAD54; }
+body.bgLbreak { background: /*url('../images/deustokom_logo_bgwhite.png') no-repeat right bottom,*/ #007760; }
 
 body.bgFocus #focusSigns {display:block;}
 body.bgFocus #signsplaceholder {display:none;}
