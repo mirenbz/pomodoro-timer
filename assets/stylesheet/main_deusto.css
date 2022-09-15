@@ -151,7 +151,7 @@ ul.panels li.panel.panel_1 h3 {
 ul.panels li.panel.panel_1 div.timer {
   color: white;
   font-family: Inter, 'Source Sans Pro', sans-serif;
-  font-weight: bold italic;
+  font-weight: bold;
   font-size: 20em;
   line-height: 1.2em;
   text-align: /*center*/ left;
@@ -432,7 +432,7 @@ button.m_button {
   position:relative;
   left:50%;
   text-shadow: 2px 2px 4px #000000;
-  font: .8em "Fira Code", Inter !important;
+  font: .8em 'JetBrains Mono', "Fira Code", Inter !important;
 }
 
 
